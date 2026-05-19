@@ -11,10 +11,12 @@ kali=st.button("x")
 tambah,kurang,kali=st.columns(3)
 if tambah:
     st.subheader(f"{number1}+{number2}={number1+number2}")
-if kurang:
+elif kurang:
     st.subheader(f"{number1}-{number2}={number1-number2}")
-if kali:
+elif kali:
     st.subheader(f"{number1}x{number2}={number1*number2}")
+elif st.button("reset"):
+    st.rerun()
 
 
 st.markdown("*Streamlit* is **really** ***cool***.")
