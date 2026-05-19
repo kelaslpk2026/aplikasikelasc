@@ -1,6 +1,10 @@
 import streamlit as st
 
 st.title("🎈 Aplikasi Kelas C")
+st.header("Mari coba membuat kalkulator sederhana")
+number1=st.number_input("Masukkan angka 1")
+number2=st.number_input("Masukkan angka 2")
+tambah,kali,bagi=st.columns(3)
 
 
 st.markdown("*Streamlit* is **really** ***cool***.")
