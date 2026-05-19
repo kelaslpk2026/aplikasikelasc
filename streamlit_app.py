@@ -4,11 +4,11 @@ st.title("🎈 Aplikasi Kelas C")
 st.header("Mari coba membuat kalkulator sederhana")
 number1=st.number_input("Masukkan angka 1")
 number2=st.number_input("Masukkan angka 2")
-tambah,kurang,kali=st.columns(3)
+
 tambah=st.button("+")
 kurang=st.button("-")
 kali=st.button("x")
-
+tambah,kurang,kali=st.columns(3)
 st.markdown("*Streamlit* is **really** ***cool***.")
 st.markdown('''
     :red[Streamlit] :orange[can] :green[write] :blue[text] :violet[in]
